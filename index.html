@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="father">
+        <div class="child">child</div>
+        <div class="child">child</div>
+        <div class="child">child</div>
+    </div>
+    <style>
+        .father {
+            display: flex;
+            /*使用flex布局*/
+            box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.3);
+        }
+
+        .child {
+            flex: 1;
+            /*子项在容器内1:1:1宽度伸展*/
+            border: 1px solid #ccc;
+        }
+    </style>
+</body>
+
+</html>
